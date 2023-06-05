@@ -1,5 +1,8 @@
 <template>
   <v-container>
+    <v-img
+      src="@/assets/dashboardBackground.svg"
+    ></v-img>
     <v-dialog>
       <template v-slot:activator="{ on, attrs }">
         <v-btn v-on="on"
